@@ -1,0 +1,5 @@
+(1) Print 
+(2) Remember last file location
+(3) Ask for save in input panal & Edit panel.
+(4) Screen size.
+(5) Icon transparent.

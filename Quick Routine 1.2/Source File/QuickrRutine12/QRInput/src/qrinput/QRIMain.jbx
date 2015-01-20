@@ -1,0 +1,19 @@
+[PropertyInfo]
+jMenu1,JMenu,false,false, , ,false,<default>
+jMenu2,JMenu,false,false, , ,false,<default>
+jMenu3,JMenu,false,false, , ,false,<default>
+jMenuBar1,JMenuBar,false,false, , ,false,<default>
+jMenuItem1,JMenuItem,false,false, , ,false,<default>
+jMenuItem2,JMenuItem,false,false, , ,false,<default>
+jMenuItem3,JMenuItem,false,false, , ,false,<default>
+jMenuItem4,JMenuItem,false,false, , ,false,<default>
+jMenuItem5,JMenuItem,false,false, , ,false,<default>
+jMenuItem6,JMenuItem,false,false, , ,false,<default>
+jMenuItem7,JMenuItem,false,false, , ,false,<default>
+jMenuItem8,JMenuItem,false,false, , ,false,<default>
+wmb,WindowsMenuBarUI,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

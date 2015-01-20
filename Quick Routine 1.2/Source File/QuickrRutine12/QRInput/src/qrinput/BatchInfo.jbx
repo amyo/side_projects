@@ -1,0 +1,16 @@
+[PropertyInfo]
+jLabel1,JLabel,false,false, , ,false,<default>
+jLabel2,JLabel,false,false, , ,false,<default>
+jLabel3,JLabel,false,false, , ,false,<default>
+jLabel4,JLabel,false,false, , ,false,<default>
+nStu,JTextField,false,false, , ,false,<default>
+sec,JComboBox,false,false, , ,false,<default>
+sem,JComboBox,false,false, , ,false,<default>
+titledBorder1,TitledBorder,false,false, , ,false,<default>
+xYLayout1,XYLayout,false,false, , ,false,<default>
+yr,JComboBox,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

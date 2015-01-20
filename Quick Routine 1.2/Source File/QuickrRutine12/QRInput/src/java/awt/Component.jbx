@@ -1,0 +1,72 @@
+[PropertyInfo]
+accessibleContext,AccessibleContext,false,false, , ,true,<default>
+alignmentX,float,false,false, , ,true,<default>
+alignmentY,float,false,false, , ,true,<default>
+appContext,AppContext,false,false, , ,false,<default>
+background,Color,false,false, , ,true,<default>
+bounds,Rectangle,false,false, , ,true,<default>
+changeSupport,java.beans.PropertyChangeSupport,false,false, , ,false,<default>
+colorModel,ColorModel,false,false, , ,true,<default>
+componentListener,ComponentListener,false,false, , ,false,<default>
+componentOrientation,ComponentOrientation,false,false, , ,true,<default>
+componentSerializedDataVersion,int,false,false, , ,false,<default>
+cursor,Cursor,false,false, , ,true,<default>
+displayable,boolean,false,false, , ,true,<default>
+doubleBuffered,boolean,false,false, , ,true,<default>
+dropTarget,DropTarget,false,false, , ,true,<default>
+enabled,boolean,false,false, , ,true,<default>
+eventMask,long,false,false, , ,false,<default>
+focusListener,FocusListener,false,false, , ,false,<default>
+focusTraversable,boolean,false,false, , ,true,<default>
+font,Font,false,false, , ,true,<default>
+foreground,Color,false,false, , ,true,<default>
+graphics,Graphics,false,false, , ,true,<default>
+graphicsConfig,GraphicsConfiguration,false,false, , ,false,<default>
+graphicsConfiguration,GraphicsConfiguration,false,false, , ,true,<default>
+hasFocus,boolean,false,false, , ,false,<default>
+height,int,false,false, , ,true,<default>
+hierarchyBoundsListener,HierarchyBoundsListener,false,false, , ,false,<default>
+hierarchyListener,HierarchyListener,false,false, , ,false,<default>
+incRate,int,false,false, , ,false,<default>
+inputContext,InputContext,false,false, , ,true,<default>
+inputMethodListener,InputMethodListener,false,false, , ,false,<default>
+inputMethodRequests,InputMethodRequests,false,false, , ,true,<default>
+isInc,boolean,false,false, , ,false,<default>
+isPacked,boolean,false,false, , ,false,<default>
+keyListener,KeyListener,false,false, , ,false,<default>
+lightweight,boolean,false,false, , ,true,<default>
+locale,Locale,false,false, , ,true,<default>
+location,Point,false,false, , ,true,<default>
+locationOnScreen,Point,false,false, , ,true,<default>
+maximumSize,Dimension,false,false, , ,true,<default>
+metrics,java.util.Hashtable,false,false, , ,false,<default>
+minimumSize,Dimension,false,false, , ,true,<default>
+minSize,Dimension,false,false, , ,false,<default>
+mouseListener,MouseListener,false,false, , ,false,<default>
+mouseMotionListener,MouseMotionListener,false,false, , ,false,<default>
+name,String,false,false, , ,true,<default>
+nameExplicitlySet,boolean,false,false, , ,false,<default>
+newEventsOnly,boolean,false,false, , ,false,<default>
+opaque,boolean,false,false, , ,true,<default>
+parent,Container,false,false, , ,true,<default>
+peer,ComponentPeer,false,false, , ,true,<default>
+peerFont,Font,false,false, , ,false,<default>
+popups,Vector,false,false, , ,false,<default>
+preferredSize,Dimension,false,false, , ,true,<default>
+prefSize,Dimension,false,false, , ,false,<default>
+privateKey,Object,false,false, , ,false,<default>
+showing,boolean,false,false, , ,true,<default>
+size,Dimension,false,false, , ,true,<default>
+toolkit,Toolkit,false,false, , ,true,<default>
+treeLock,Object,false,false, , ,true,<default>
+valid,boolean,false,false, , ,true,<default>
+visible,boolean,false,false, , ,true,<default>
+width,int,false,false, , ,true,<default>
+windowClosingException,RuntimeException,false,false, , ,false,<default>
+x,int,false,false, , ,true,<default>
+y,int,false,false, , ,true,<default>
+[IconNames]
+
+
+
+

@@ -1,0 +1,64 @@
+[PropertyInfo]
+border1,Border,false,false, , ,false,<default>
+borderLayout1,BorderLayout,false,false, , ,false,<default>
+borderLayout2,BorderLayout,false,false, , ,false,<default>
+bp,BatchPan,false,false, , ,false,<default>
+BTCom,JComboBox,false,false, , ,false,<default>
+btnPan,JPanel,false,false, , ,false,<default>
+catCom,JComboBox,false,false, , ,false,<default>
+catLab,JLabel,false,false, , ,false,<default>
+catStr,String[],false,false, , ,false,<default>
+close,JButton,false,false, , ,false,<default>
+closeAll,JButton,false,false, , ,false,<default>
+courseList,JList,false,false, , ,false,<default>
+cp,CoursePan,false,false, , ,false,<default>
+downBtnPan,JPanel,false,false, , ,false,<default>
+downPan,JPanel,false,false, , ,false,<default>
+dumyPan,JPanel,false,false, , ,false,<default>
+flowLayout1,FlowLayout,false,false, , ,false,<default>
+flowLayout2,FlowLayout,false,false, , ,false,<default>
+flowLayout3,FlowLayout,false,false, , ,false,<default>
+gridLayout1,GridLayout,false,false, , ,false,<default>
+help,JButton,false,false, , ,false,<default>
+indexLoadCourse,int,false,false, , ,false,<default>
+indexLoadRoom,int,false,false, , ,false,<default>
+jPanel1,JPanel,false,false, , ,false,<default>
+jPanel2,JPanel,false,false, , ,false,<default>
+jScrollPane1,JScrollPane,false,false, , ,false,<default>
+jScrollPane2,JScrollPane,false,false, , ,false,<default>
+leftPan,JPanel,false,false, , ,false,<default>
+midPan,JPanel,false,false, , ,false,<default>
+nLoadCourse,int,false,false, , ,false,<default>
+nLoadRoom,int,false,false, , ,false,<default>
+remove,JButton,false,false, , ,false,<default>
+removeAll,JButton,false,false, , ,false,<default>
+res,RoutineEditorSet,false,false, , ,false,<default>
+rightPan,JPanel,false,false, , ,false,<default>
+roomList,JList,false,false, , ,false,<default>
+roomTitle,TitledBorder,false,false, , ,false,<default>
+routineOpenForbitten,boolean,false,false, , ,false,<default>
+rp,RoomPan,false,false, , ,false,<default>
+s,String[],false,false, , ,false,<default>
+saved,boolean,false,false, , ,false,<default>
+tipsLabel,JLabel,false,false, , ,false,<default>
+titledBorder1,TitledBorder,false,false, , ,false,<default>
+titledBorder2,TitledBorder,false,false, , ,false,<default>
+titledBorder3,TitledBorder,false,false, , ,false,<default>
+titledBorder5,TitledBorder,false,false, , ,false,<default>
+titledBorder6,TitledBorder,false,false, , ,false,<default>
+topLab,JLabel,false,false, , ,false,<default>
+topPan,JPanel,false,false, , ,false,<default>
+tp,TeacherPan,false,false, , ,false,<default>
+upBtnPan,JPanel,false,false, , ,false,<default>
+verticalFlowLayout1,VerticalFlowLayout,false,false, , ,false,<default>
+verticalFlowLayout2,VerticalFlowLayout,false,false, , ,false,<default>
+verticalFlowLayout3,VerticalFlowLayout,false,false, , ,false,<default>
+xxxxxxxxxxxxxxx,JLabel,false,false, , ,false,<default>
+xYLayout1,XYLayout,false,false, , ,false,<default>
+xYLayout2,XYLayout,false,false, , ,false,<default>
+xYLayout3,XYLayout,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

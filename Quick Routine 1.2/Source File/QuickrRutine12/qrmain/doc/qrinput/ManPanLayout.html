@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><!--JBuilder QuickDoc-->
+<HEAD>
+<TITLE>Class qrinput.ManPanLayout</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+</HEAD>
+<BODY>
+
+<H2>
+<FONT SIZE="-1">qrinput</FONT>
+<BR>Class ManPanLayout</H2>
+<DL>
+<DT>public class <B>ManPanLayout</B><DT>extends JPanel
+</DL>
+<DL><DD>Title: QuickRoutine Input Module Description: This Module take basic input data for QuickRoutine. Copyright: Copyright (c) 2004 Company: Slog Overs<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Version:</B><DD>1.0</DD>
+<DT><B>Author:</B></DL>
+<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">
+<TR BGCOLOR="#CCCCFF"><TD COLSPAN=1><FONT SIZE="+2">
+<B>Field Detail</B>
+</FONT></TD></TR></TABLE>
+
+<H3>rp</H3>
+<PRE>
+RoomPan <B>rp</B></PRE>
+<DL><DD>Preveous panels ref to access those temp data.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>routineOpenForbitten</H3>
+<PRE>
+private boolean <B>routineOpenForbitten</B></PRE>
+<DL><DD>Variable use for forbidden routine open. Cause actionlistener try to open routine so frequently.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">
+<TR BGCOLOR="#CCCCFF"><TD COLSPAN=1><FONT SIZE="+2">
+<B>Method Detail</B>
+</FONT></TD></TR></TABLE>
+
+<H3>reloadBatch</H3>
+<PRE>
+public void <B>reloadBatch</B>()</PRE>
+<DL><DD>Reload BATCH list.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>See Also:</B><DD>relaodBTCom()</DD>
+</DL>
+<HR>
+
+<H3>reloadTeacher</H3>
+<PRE>
+public void <B>reloadTeacher</B>()</PRE>
+<DL><DD>Reload TEACHER list.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>See Also:</B><DD>relaodBTCom()</DD>
+</DL>
+<HR>
+
+<H3>reloadBTCom</H3>
+<PRE>
+public void <B>reloadBTCom</B>()</PRE>
+<DL><DD>Reload BATCH TEACHER List according to selected index of castagory combobox.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>See Also:</B><DD>reloadBatch()</DD>
+<DD>reloadTeacher()</DD>
+</DL>
+<HR>
+
+<H3>reloadTeacherCourse</H3>
+<PRE>
+public void <B>reloadTeacherCourse</B>(String&nbsp;tid)</PRE>
+<DL><DD>Reload a selected teachers' COURSE.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>a</CODE> - teacher id whose course have to be loaded.</DD>
+</DL>
+<HR>
+
+<H3>reloadBatchCourse</H3>
+<PRE>
+public void <B>reloadBatchCourse</B>(int&nbsp;bhi)</PRE>
+<DL><DD>Reload a selectted BATCHS' COURSE.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>a</CODE> - bachs' hash index which courses' have to be loaded.</DD>
+</DL>
+<HR>
+
+<H3>reloadCourse</H3>
+<PRE>
+public void <B>reloadCourse</B>()</PRE>
+<DL><DD>Reload course list according to catagory combobox.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>See Also:</B><DD>reloadBatchCourse(int)</DD>
+<DD>reloadTeacherCourse(String)</DD>
+</DL>
+<HR>
+
+<H3>reloadTypeRoom</H3>
+<PRE>
+public void <B>reloadTypeRoom</B>()</PRE>
+<DL><DD>Reload room for a selected course. For theory course only theory room will be loaded For lab course only lab room will be loaded If room is fixed for the selected course only those room will be shown to room list.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>errorInterface</H3>
+<PRE>
+public String <B>errorInterface</B>()</PRE>
+<DL><DD>Message for user when click ASSIGN button without selectting proper data.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Returns:</B><DD>a error masage or null when there is no error.</DD>
+</DL>
+<HR>
+
+<H3>readInterface</H3>
+<PRE>
+public RoutineCell <B>readInterface</B>()</PRE>
+<DL><DD>Colect data from interface.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Returns:</B><DD>a RoutineCell class.</DD>
+</DL>
+<HR>
+
+<H3>reloadCourseBusyState</H3>
+<PRE>
+public boolean <B>reloadCourseBusyState</B>()</PRE>
+<DL><DD>Changed busy state when click to course list. If catagory is BATCH: Course teacher busy state have set. If catagory is TEACHER: Courses' batch busy state have set.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>reloadInterface</H3>
+<PRE>
+public void <B>reloadInterface</B>(int&nbsp;catIndex,
+                            int&nbsp;BTInedx)</PRE>
+<DL><DD>Reload whole interface for refreshing data.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>See Also:</B><DD>reloadBTCom()</DD>
+<DD>reloadCourse()</DD>
+<DD>reloadTypeRoom()</DD>
+</DL>
+<HR>
+
+<H3>catCom_itemStateChanged</H3>
+<PRE>
+void <B>catCom_itemStateChanged</B>(ItemEvent&nbsp;e)</PRE>
+<DL><DD>ACTION LISTENER.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+</BODY>
+</HTML>

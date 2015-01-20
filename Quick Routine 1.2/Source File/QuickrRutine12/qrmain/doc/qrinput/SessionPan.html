@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><!--JBuilder QuickDoc-->
+<HEAD>
+<TITLE>Class qrinput.SessionPan</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+</HEAD>
+<BODY>
+
+<H2>
+<FONT SIZE="-1">qrinput</FONT>
+<BR>Class SessionPan</H2>
+<DL>
+<DT>public class <B>SessionPan</B><DT>extends JPanel
+</DL>
+<DL><DD>Title: QuickRoutine Input Module Description: This Module take basic input data for QuickRoutine. Copyright: Copyright (c) 2004 Company: Slog Overs<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Version:</B><DD>1.0</DD>
+<DT><B>Author:</B></DL>
+<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">
+<TR BGCOLOR="#CCCCFF"><TD COLSPAN=1><FONT SIZE="+2">
+<B>Field Detail</B>
+</FONT></TD></TR></TABLE>
+
+<H3>panBox</H3>
+<PRE>
+JPanel <B>panBox</B></PRE>
+<DL><DD>'pnbox' contains grid of single session, 'btnPan' contains three button to control the grid.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>freeAll</H3>
+<PRE>
+JButton <B>freeAll</B></PRE>
+<DL><DD>There buttons to make different type of change the grid instantly.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>logo</H3>
+<PRE>
+TitleBox <B>logo</B></PRE>
+<DL><DD>Contains of up-left corner of the grid This just occupied the grid, do nothing.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>per</H3>
+<PRE>
+TitleBox[] <B>per</B></PRE>
+<DL><DD>Tittle of the colum amd row of the grid,<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>c</H3>
+<PRE>
+MyCheckBox[][] <B>c</B></PRE>
+<DL><DD>Real session cell contains, this is actually a buttons array but designe so that it act as a check box.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">
+<TR BGCOLOR="#CCCCFF"><TD COLSPAN=1><FONT SIZE="+2">
+<B>Method Detail</B>
+</FONT></TD></TR></TABLE>
+
+<H3>setValueWithoutManu</H3>
+<PRE>
+void <B>setValueWithoutManu</B>(int&nbsp;v)</PRE>
+<DL><DD>Set all session to value 'v' WITHOUT changing Manu session.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>value</CODE> - that have to set.</DD>
+</DL>
+<HR>
+
+<H3>setValue</H3>
+<PRE>
+void <B>setValue</B>(int[][]&nbsp;v)</PRE>
+<DL><DD>Set all session as given in v[][] with Manu session.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>setManuBusyValue</H3>
+<PRE>
+void <B>setManuBusyValue</B>(int[][]&nbsp;v)</PRE>
+<DL><DD>Set all manual session....<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>v</CODE> - </DD>
+</DL>
+<HR>
+
+<H3>refresh</H3>
+<PRE>
+void <B>refresh</B>()</PRE>
+<DL><DD>Set all seeion Free and Lunch session Busy without changing Manu session.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getValue</H3>
+<PRE>
+int[][] <B>getValue</B>()</PRE>
+<DL><DD><DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Returns:</B><DD>a two dimentional array that contain the value of session panel.</DD>
+</DL>
+<HR>
+
+</BODY>
+</HTML>
