@@ -1,4 +1,4 @@
-These are my colleage projects. For some reason sometime I browse through the old code, get amazed by some pretty good tricks and can't even remember, I myself wrote that :) It's been 10 years!
+These are my colleage projects.
 
 # Lecture Scheduler
 
