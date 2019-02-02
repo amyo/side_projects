@@ -1,4 +1,4 @@
-QuickRoutine (from the name Quick Sort :)) is lecture generating software for a semester. It lets you generate optimized class schedule providing all the inputs and the constraints. Underneath it runs a cool maximum flow algorithm with a slightly modified DFS.
+QuickRoutine (from the name Quick Sort :)) is lecture generating software for a semester. It generates optimized class schedule providing all the inputs and the constraints. Underneath it runs a cool maximum flow algorithm with a slightly modified DFS.
 
 Algorithm: http://goo.gl/fZcWf
 
