@@ -1,8 +1,10 @@
-# Lecture Scheduler
+QuickRoutine (from the name Quick Sort :)) is lecture generating software for a semester. It lets you generate optimized class schedule providing all the inputs and the constraints. Underneath it runs a cool maximum flow algorithm with a slightly modified DFS.
 
-Algorithm (Maximum-flow): http://goo.gl/fZcWf
+Algorithm: http://goo.gl/fZcWf
 
-Class schedule of a batch 
+This software was developed for Shahjalal University of Science and Technology in Sylhet and was used multiple years successfully to generate the lectures.
+
+The class schedule of a batch 
 
 ![Alt text](https://github.com/tojewel/side_projects/blob/master/Quick%20Routine%201.2/Executable%20File/Snapshots/Class_schedule_of_a_batch.png)
 
@@ -14,7 +16,3 @@ Manual scheduling
 
 ![Alt text](https://github.com/tojewel/side_projects/blob/master/Quick%20Routine%201.2/Executable%20File/Snapshots/Manual%20Schedule.png)
 
-
-# Board Game 
-
-Implementation of Minimax (AI) algorithm with custom board evaluation method tuned for some local two players’ board games. Algorithm: http://goo.gl/X3h8s
