@@ -1,6 +1,6 @@
 QuickRoutine is a course schedule generating software for a semester. It generates optimized schedule providing all the inputs and the constraints. Underneath it runs a [maximum flow algorithm with a slightly modified DFS](http://goo.gl/fZcWf).
 
-This software was developed for [Shahjalal University of Science and Technology](https://www.sust.edu/).
+This software was developed for [Shahjalal University of Science and Technology](https://www.sust.edu/d/cse).
 
 The course schedule 
 
